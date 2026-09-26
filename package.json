@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-pulse-verity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pulse Verity — crypto index prices that come with a PROOF.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-af80ead2a944c6a1a6d8cad53de771990cbf4787c8889dc8807568079dcda8f0",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-83150ce641832c64be94e5ce2e132054506daecd2cc6cd5952c2d71217bc170c",
+    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
   }
 }

@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/pulse-verity",
   "title": "Pulse Verity",
   "description": "Pulse Verity — crypto index prices that come with a PROOF.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/pulse-verity",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-pulse-verity",

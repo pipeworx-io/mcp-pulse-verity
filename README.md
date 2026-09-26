@@ -5,7 +5,7 @@ Verity Index is signed with ECDSA P-256, so an agent that acted on a price can
 later demonstrate exactly which price it acted on — and that demonstration holds
 with the agent, the gateway and Pulse all offline.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1679+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1683+ live data sources.
 
 This is the first source in the catalogue that hands back something checkable.
 Every other price feed here gives you a number you must take on trust.
@@ -185,7 +185,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1679+ data sources. The
+Both URLs reach the same gateway and the same 1683+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
