@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-pulse-verity",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Pulse Verity — crypto index prices that come with a PROOF.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-pulse-verity": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "pulse-verity"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-pulse-verity.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/pulse-verity",
   "pipeworx": {
-    "sourceHash": "v1-83150ce641832c64be94e5ce2e132054506daecd2cc6cd5952c2d71217bc170c",
-    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
+    "mode": "gateway",
+    "slug": "pulse-verity",
+    "gatewaySlug": "pulse-verity",
+    "sourceHash": "v1-ae1335e41ff2873e2b132c55fffaa46a91a72087117713914deaa347dda75241",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
