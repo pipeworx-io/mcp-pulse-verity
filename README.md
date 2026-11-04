@@ -5,7 +5,7 @@ Verity Index is signed with ECDSA P-256, so an agent that acted on a price can
 later demonstrate exactly which price it acted on — and that demonstration holds
 with the agent, the gateway and Pulse all offline.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1856+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 This is the first source in the catalogue that hands back something checkable.
 Every other price feed here gives you a number you must take on trust.
@@ -126,12 +126,12 @@ whole pitch is signatures is the confusion most worth pre-empting.
 ## Data sources
 
 - <https://thepulse.markets/developers> — key signup and docs
-- `https://mcp.thepulse.markets/api/index/v1/price` — signed print
-- `https://mcp.thepulse.markets/api/index/v1/batch` — up to 100 symbols
-- `https://mcp.thepulse.markets/api/index/v1/print` — recorded print near a time
-- `https://mcp.thepulse.markets/api/index/v1/verity/catalog` — coverage, unsigned
-- `https://mcp.thepulse.markets/api/index/v1/pubkey` — public key ring, keyless
-- `https://mcp.thepulse.markets/api/index/v1/symbols` — 5,500+ served tickers
+- Thepulse — signed print
+- Thepulse — up to 100 symbols
+- Thepulse — recorded print near a time
+- Thepulse — coverage, unsigned
+- Thepulse — public key ring, keyless
+- Thepulse — 5,500+ served tickers
 
 Pulse also publishes its own MCP server (`pulse-verity` on npm,
 `io.github.PulseBet/pulse-verity` in the official registry). This pack is a
@@ -185,7 +185,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1856+ data sources. The
+Both URLs reach the same gateway and the same 1866+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

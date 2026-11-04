@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-pulse-verity",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Pulse Verity — crypto index prices that come with a PROOF.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "pulse-verity",
     "gatewaySlug": "pulse-verity",
-    "sourceHash": "v1-ae1335e41ff2873e2b132c55fffaa46a91a72087117713914deaa347dda75241",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-ba5360fa0e2a8e3a6a9aaad800510e6273917804248246f0d91a57489d439c5e",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
